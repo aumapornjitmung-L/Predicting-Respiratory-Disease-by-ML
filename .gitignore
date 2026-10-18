@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+# ห้ามอัปโหลดข้อมูลดิบผู้ป่วยขึ้น GitHub
+*.xlsx
+*.xls
+*.csv
+!model_artifacts/province_profile.csv
+.streamlit/secrets.toml
